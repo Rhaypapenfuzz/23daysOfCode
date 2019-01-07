@@ -29,7 +29,7 @@ int accumulate(int userInput, string preferredOperation){
   int product = 1;
   int result;
 
-  for(int i = 0; i < userInput + 1 ; i++){
+  for(int i = 1; i < userInput + 1 ; i++){
     if(preferredOperation == "sum"){
       sum += i;
       result = sum;
